@@ -1,0 +1,24 @@
+#!/bin/bash
+# -*- coding:utf-8 -*-
+
+# File: use_data
+# Description: copy data file to be used into sample.dat
+# Author: fmatt
+# Date: 07/01/2011
+# Version: 0.2
+ 
+if [ $# -ne 2 ]
+then
+   echo 'Usage: use_data <class> <subject>'
+   echo 'with class = 0 (extension), 1 (flexion), 2 (grasp) or 3 (twist)'
+   echo 'and subject = dan (subject 1), fer (subject 2), wed (subject 3), adrisom1 (subject 4), adrisot1 (subject 5).'
+   exit 1
+fi
+
+case $1 in
+0) cp ../data/sample_$2_extensao.dat ../data/sample.dat;;
+1) cp ../data/sample_$2_flexao.dat ../data/sample.dat;;
+2) cp ../data/sample_$2_grasp.dat ../data/sample.dat;;
+3) cp ../data/sample_$2_torcao.dat ../data/sample.dat;;
+*) echo 'Unrecognized option:' $1
+esac

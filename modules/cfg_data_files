@@ -1,0 +1,50 @@
+#
+# Config variables
+#
+
+_OUTPUT_FILE	../gui/res/wed_training_patterns
+_PATTERNS_DIR	../patterns/
+
+# Data files		# Class id
+
+#
+# Extension
+#
+
+../data/wed_extensao_01.dat	0
+../data/wed_extensao_02.dat	0
+../data/wed_extensao_03.dat	0
+../data/wed_extensao_04.dat	0
+../data/wed_extensao_05.dat	0
+
+#
+# Flexon
+#
+
+../data/wed_flexao_01.dat	1
+../data/wed_flexao_02.dat	1
+../data/wed_flexao_03.dat	1
+../data/wed_flexao_04.dat	1
+../data/wed_flexao_05.dat	1
+
+#
+# Grasp
+#
+
+../data/wed_grasp_01.dat	2
+../data/wed_grasp_02.dat	2
+../data/wed_grasp_03.dat	2
+../data/wed_grasp_04.dat	2
+../data/wed_grasp_05.dat	2
+
+#
+# Twist
+#
+
+../data/wed_torcao_01.dat	3
+../data/wed_torcao_02.dat	3
+../data/wed_torcao_03.dat	3
+../data/wed_torcao_04.dat	3
+../data/wed_torcao_05.dat	3
+
+# EOF
